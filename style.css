@@ -23,45 +23,6 @@ main {
   height: 100%;
 }
 
-section {
-  width: 100%;
-  height: 100%;
-  background-color: #86ff62;
-}
-section #front {
-  padding: 2rem 2rem;
-  font-family: front;
-  gap: 8rem;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-}
-section #front img {
-  width: 100%;
-  height: 70vh;
-  position: absolute;
-  bottom: -15%;
-  left: 50%;
-  z-index: 1;
-  transform: translateX(-50%);
-}
-section #front #box1 {
-  line-height: 1.4;
-}
-section #front #box1 h1 {
-  font-size: 41vw;
-  position: relative;
-  z-index: 2;
-  text-align: left;
-  font-family: front1;
-}
-section #front #box1 h3 {
-  font-size: 20vw;
-  top: 64%;
-  position: relative;
-}
-
 #section2 {
   width: 100%;
   height: 100%;
@@ -102,4 +63,45 @@ section #front #box1 h3 {
 #section2 #block7 {
   grid-area: block7;
   background-color: #9dd31e;
+}
+
+#section1 {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border: 2px solid;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "loc1" "loc2";
+}
+#section1 #loc1 {
+  grid-area: loc1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2reem 2rem;
+  border: 2px solid;
+  position: relative;
+  bottom: 0;
+  line-height: 1.4;
+}
+#section1 #loc1 h1 {
+  font-size: 41vw;
+  z-index: 2;
+  text-align: left;
+  font-family: front1;
+}
+#section1 #loc1 h3 {
+  font-size: 20vw;
+  font-family: front;
+}
+#section1 #loc2 {
+  grid-area: loc2;
+  background-image: url(retouch_2025112621340961.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid;
+  background-position: center;
 }/*# sourceMappingURL=style.css.map */
