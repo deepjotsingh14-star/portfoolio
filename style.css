@@ -41,7 +41,7 @@ section #front img {
   width: 100%;
   height: 70vh;
   position: absolute;
-  bottom: -10%;
+  bottom: -15%;
   left: 50%;
   z-index: 1;
   transform: translateX(-50%);
@@ -50,9 +50,9 @@ section #front #box1 {
   line-height: 1.4;
 }
 section #front #box1 h1 {
-  font-size: 40vw;
+  font-size: 41vw;
   position: relative;
-  z-index: 0;
+  z-index: 2;
   text-align: left;
   font-family: front1;
 }
