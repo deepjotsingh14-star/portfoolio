@@ -98,6 +98,10 @@ main {
 #section1 #loc1 h3 {
   font-size: 20vw;
   font-family: front;
+  color: transparent;
+  background-image: url(https://i.pinimg.com/originals/e4/47/c5/e447c5bdd414dce7b88d3bd7536c9f47.gif);
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 #section1 #loc2 {
   grid-area: loc2;
@@ -125,10 +129,14 @@ section .section3 {
 section .section3 #section3-block1 {
   grid-area: section3-block1;
   gap: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding: 1rem 1rem;
   display: flex;
   justify-content: center;
+  color: transparent;
+  background-image: url(https://i.pinimg.com/originals/e4/47/c5/e447c5bdd414dce7b88d3bd7536c9f47.gif);
+  -webkit-background-clip: text;
+          background-clip: text;
   font-family: front;
   flex-direction: column;
   text-align: center;
@@ -202,9 +210,13 @@ section .section4 h4 {
 section .section4 #section4-block1 {
   grid-area: section4-block1;
   gap: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding: 1rem 1rem;
   justify-content: center;
+  color: transparent;
+  background-image: url(https://i.pinimg.com/originals/e4/47/c5/e447c5bdd414dce7b88d3bd7536c9f47.gif);
+  -webkit-background-clip: text;
+          background-clip: text;
   display: flex;
   font-family: front;
   flex-direction: column;
@@ -230,7 +242,7 @@ section .section4 #section4-block2 p {
 }
 section .section4 #section4-block3 {
   grid-area: section4-block3;
-  background-color: #F1F3E0;
+  background-color: #F9F8F6;
   padding: 1rem 1rem;
   display: flex;
   border-radius: 1.6rem;
