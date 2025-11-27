@@ -82,6 +82,7 @@ main {
 #section1 #loc1 {
   grid-area: loc1;
   display: flex;
+  margin-top: 0px !important;
   flex-direction: column;
   justify-content: flex-end;
   padding: 2reem 2rem;
@@ -105,10 +106,18 @@ main {
 }
 #section1 #loc2 {
   grid-area: loc2;
-  background-image: url(retouch_2025112621340961.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+}
+#section1 #loc2 img {
+  width: 100%;
+  background-size: cover;
   background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  z-index: 1;
+  transform: translateX(-50%);
 }
 
 section {
@@ -123,9 +132,6 @@ section .section3 {
   grid-template-columns: 1fr;
   grid-template-rows: 0.5fr 1fr 1fr;
   grid-template-areas: "section3-block1" " section3-block2" " section3-block3";
-}
-section .section3 li {
-  margin: 0 1rem;
 }
 section .section3 #section3-block1 {
   grid-area: section3-block1;
@@ -151,6 +157,9 @@ section .section3 #section3-block2 {
   gap: 2rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   flex-direction: column;
+}
+section .section3 #section3-block2 li {
+  margin: 0 1rem;
 }
 section .section3 #section3-block2 h1 {
   font-size: 1.4rem;
@@ -188,7 +197,7 @@ section .section3 #section3-block3 h1 {
   font-weight: bold;
 }
 section .section3 #section3-block3 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 section .section3 #section3-block3 div {
   display: flex;
