@@ -8,6 +8,7 @@
     font-family: front1;
     src: url(Gondens\ DEMO.otf);
 }
+
 @font-face {
     font-family: font3;
     src: url(sf-pro-text_regular.woff2);
@@ -87,7 +88,7 @@ main {
     width: 100%;
     height: 100%;
     background-color: #ffffff;
- 
+
     padding: 0 1rem;
     display: grid;
     grid-template-columns: 1fr;
@@ -155,9 +156,9 @@ section {
         width: 100%;
         height: 100%;
         background-color: #ffffff;
-        padding: 1.5rem;
+        padding: 2rem 2rem;
         display: grid;
-        gap: 1rem;
+        gap: 1.4rem;
         grid-template-columns: 1fr;
         grid-template-rows: 0.5fr 1fr 1fr;
         grid-template-areas: "section3-block1"
@@ -172,114 +173,141 @@ section {
             font-size: 1.5rem;
             padding: 1rem 1rem;
             display: flex;
+            justify-content: center;
             font-family: front;
             flex-direction: column;
             text-align: center;
             // background-color: #ff0000;
-    
+
 
         }
 
         #section3-block2 {
             grid-area: section3-block2;
-            background-color: #F1F3E0;
+            background-color: #F9F8F6;
             padding: 1rem 1rem;
             display: flex;
             border-radius: 1.6rem;
             font-family: font3;
             gap: 2rem;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            ;
             flex-direction: column;
-                    h1{
-            font-size: 1.4rem;
-            text-align: center;
-            font-weight: bold;
-        }
 
-        p {
-            font-size: 1.1rem;
-        }
+            h1 {
+                font-size: 1.4rem;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
         }
 
         #section3-block3 {
             grid-area: section3-block3;
-            background-color: #F1F3E0;
+            background-color: #F9F8F6;
 
             padding: 1rem 1rem;
             display: flex;
             border-radius: 1.6rem;
-                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            ;
             font-family: font3;
             gap: 2rem;
             flex-direction: column;
-                    h1 {
-            font-size: 1.4rem;
-            text-align: center;
-            font-weight: bold;
-        }
 
-        p {
-            font-size: 1.1rem;
-        }
+            h1 {
+                font-size: 1.4rem;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
 
         }
 
     }
 
 }
+
 section {
     width: 100%;
-    height: 100%;
+
 
     .section4 {
 
         width: 100%;
         height: 100%;
         background-color: #ffffff;
-        padding: 1.5rem;
+        border: 2px solid;
+        padding: 2rem 2rem;
         display: grid;
-        gap: 1rem;
+        position: relative;
+        overflow: hidden;
+        gap: 1.4rem;
         grid-template-columns: 1fr;
         grid-template-rows: 0.5fr 1fr 1fr;
         grid-template-areas: "section4-block1"
             " section4-block2"
             " section4-block3";
 
+        ul {
+            list-style: circle;
+        }
 
+        li {
+            margin: 1rem;
+            gap: 0;
+        }
+
+        h4 {
+            color: #1a87f5;
+        }
 
         #section4-block1 {
             grid-area: section4-block1;
             gap: 4rem;
             font-size: 1.5rem;
             padding: 1rem 1rem;
+            justify-content: center;
             display: flex;
             font-family: front;
             flex-direction: column;
             text-align: center;
-            // background-color: #ff0000;
-    
 
+
+            // h1{
+            //       position: relative;
+            // bottom: 0;
+            // }   
         }
 
         #section4-block2 {
             grid-area: section4-block2;
-            background-color: #F1F3E0;
+            background-color: #F9F8F6;
             padding: 1rem 1rem;
             display: flex;
             border-radius: 1.6rem;
             font-family: font3;
-            gap: 2rem;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);;
+            // gap: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            ;
             flex-direction: column;
-                    h1 {
-            font-size: 1.4rem;
-            text-align: center;
-            font-weight: bold;
-        }
 
-        p {
-            font-size: 1.1rem;
-        }
+
+            h1 {
+                font-size: 1.4rem;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 1rem;
+            }
         }
 
         #section4-block3 {
@@ -289,19 +317,21 @@ section {
             padding: 1rem 1rem;
             display: flex;
             border-radius: 1.6rem;
-                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            ;
             font-family: font3;
-            gap: 2rem;
+            gap: 1rem;
             flex-direction: column;
-                    h1 {
-            font-size: 1.4rem;
-            text-align: center;
-            font-weight: bold;
-        }
 
-        p {
-            font-size: 1.1rem;
-        }
+            h1 {
+                font-size: 1.4rem;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 1rem;
+            }
 
         }
 
