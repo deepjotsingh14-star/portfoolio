@@ -152,12 +152,12 @@ main {
 
 section {
     width: 100%;
-    height: 100%;
+
 
     .section3 {
 
         width: 100%;
-        height: 100%;
+
         background-color: #ffffff;
         padding: 2rem 2rem;
         display: grid;
@@ -168,13 +168,15 @@ section {
             " section3-block2"
             " section3-block3";
 
-
+             li {
+                margin: 0 1rem;
+            }
 
         #section3-block1 {
             grid-area: section3-block1;
             gap: 4rem;
             font-size: 1.5rem;
-        
+
             display: flex;
             justify-content: center;
             color: transparent;
@@ -201,6 +203,8 @@ section {
             ;
             flex-direction: column;
 
+       
+
             h1 {
                 font-size: 1.4rem;
                 text-align: center;
@@ -209,7 +213,21 @@ section {
             }
 
             p {
-                font-size: 1.1rem;
+                font-size: 1rem;
+            }
+
+            div {
+                display: flex;
+                gap: 1rem;
+
+                h4 {
+
+                    padding: 0.3rem 0.5rem;
+                    width: box-fit;
+                    border: 0.2rem solid;
+                    border-radius: 2rem;
+                    font-size: 1.1rem;
+                }
             }
         }
 
@@ -233,7 +251,32 @@ section {
             }
 
             p {
-                font-size: 1.1rem;
+                font-size: 1rem;
+            }
+
+            div {
+                display: flex;
+                justify-content: space-between;
+                
+                 
+
+                h4 {
+
+                    padding: 0.3rem 0.5rem;
+                    text-align: center;
+                    width: box-fit;
+                    border: 0.2rem solid;
+                    border-radius: 2rem;
+                    font-size: 1.1rem;
+                }
+         
+
+                .ri-github-fill{
+                    font-size: 2rem;
+                    text-decoration: none;
+                    color: black;
+                    margin: 1rem;
+                }
             }
 
         }
@@ -249,7 +292,7 @@ section {
     .section4 {
 
         width: 100%;
-        height: 100%;
+
         background-color: #ffffff;
         border: 2px solid;
         padding: 2rem 2rem;
@@ -280,7 +323,7 @@ section {
             grid-area: section4-block1;
             gap: 4rem;
             font-size: 1.5rem;
-            
+
             justify-content: center;
             color: transparent;
             background-image: url(https://i.pinimg.com/originals/e4/47/c5/e447c5bdd414dce7b88d3bd7536c9f47.gif);
