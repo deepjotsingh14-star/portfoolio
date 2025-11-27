@@ -169,4 +169,68 @@ section .section3 #section3-block3 h1 {
 }
 section .section3 #section3-block3 p {
   font-size: 1.1rem;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+section .section4 {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
+  grid-template-areas: "section4-block1" " section4-block2" " section4-block3";
+}
+section .section4 #section4-block1 {
+  grid-area: section4-block1;
+  gap: 4rem;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  display: flex;
+  font-family: front;
+  flex-direction: column;
+  text-align: center;
+}
+section .section4 #section4-block2 {
+  grid-area: section4-block2;
+  background-color: #F1F3E0;
+  padding: 1rem 1rem;
+  display: flex;
+  border-radius: 1.6rem;
+  font-family: font3;
+  gap: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+}
+section .section4 #section4-block2 h1 {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: bold;
+}
+section .section4 #section4-block2 p {
+  font-size: 1.1rem;
+}
+section .section4 #section4-block3 {
+  grid-area: section4-block3;
+  background-color: #F1F3E0;
+  padding: 1rem 1rem;
+  display: flex;
+  border-radius: 1.6rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: font3;
+  gap: 2rem;
+  flex-direction: column;
+}
+section .section4 #section4-block3 h1 {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: bold;
+}
+section .section4 #section4-block3 p {
+  font-size: 1.1rem;
 }/*# sourceMappingURL=style.css.map */
