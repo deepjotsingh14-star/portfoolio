@@ -129,7 +129,7 @@ section .section3 {
 section .section3 #section3-block1 {
   grid-area: section3-block1;
   gap: 4rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   color: transparent;
@@ -209,7 +209,7 @@ section .section4 h4 {
 section .section4 #section4-block1 {
   grid-area: section4-block1;
   gap: 4rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   justify-content: center;
   color: transparent;
   background-image: url(https://i.pinimg.com/originals/e4/47/c5/e447c5bdd414dce7b88d3bd7536c9f47.gif);
