@@ -92,23 +92,24 @@ main {
     padding: 0 1rem;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "loc1"
+        "loc2"
         "loc2";
 
     #loc1 {
-        grid-area: loc1;
-        // background-color: #ec0000;
-        display: flex;
-        margin-top: 0px !important;
-        flex-direction: column;
- 
-        // padding: 2reem 2rem;
-        margin-bottom: 10px;
-        position: relative;
-        bottom: 0;
-        line-height: 1.4;
-
+    grid-area: loc1;
+    display: flex;
+    margin-top: 0px !important;
+    flex-direction: column;
+    z-index: 1;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    line-height: 1.4;
 
         h1 {
 
@@ -117,6 +118,8 @@ main {
             z-index: 2;
             text-align: left;
             font-family: front1;
+            left: 50%;
+          
         }
 
         h3 {
@@ -131,21 +134,15 @@ main {
     }
 
     #loc2 {
-        grid-area: loc2;
-
-        background-image: url(retouch_2025112621340961.png);
-        background-size: contain;
-        background-repeat: no-repeat;
  
-        background-position: center;
-        //       img {
- 
-        //     width: 100%;
-        //     background-size: cover;
-        //     background-position: center;
-        //         object-fit: cover;
-            
-      
+    grid-area: loc2;
+    background-position: center;
+    background-image: url(retouch_2025102821364594.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    -o-object-fit: cover;
+    object-fit: cover;
         //         position: absolute;
         //         bottom: 0;
         //     left: 50%;
@@ -405,24 +402,25 @@ section {
     height: 100%;
     background-color: #ffffff;
     padding: 0 1rem;
-
+    position: relative;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "loc1"
-      "loc2";
+      "loc2"
+      "loc2"
+       "loc2";;
   }
 
   #section1 #loc1 {
-    grid-area: loc1;
-    display: flex;
-    // background-color: red;
-  
-    margin-bottom: 10px;
-    position: relative;
-    bottom: 0;
-    line-height: 1.4;
+        grid-area: loc1;
+        /* display: flex; */
+        margin-bottom: 10px;
+        position: absolute;
+        /* background-position-y: 8rem; */
+        bottom: 0;
+        line-height: 1.4;
   }
 
   #section1 #loc1 h1 {
@@ -441,12 +439,15 @@ section {
   }
 
   #section1 #loc2 {
-    grid-area: loc2;
-    background-image: url("retouch_2025112621340961.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 30px;
-    background-position: center;
+        grid-area: loc2;
+        background-image: url(retouch_2025112621340961.png);
+        background-size: contain;
+        background-position-y: 5rem;
+        background-repeat: no-repeat;
+ 
   }
 
 }
+// @media screen (max height:){
+
+// }
