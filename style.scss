@@ -141,8 +141,10 @@ main {
     width: 100%;
     background-size: cover;
     background-position: center;
-    -o-object-fit: cover;
+ 
     object-fit: cover;
+        background-position-y: 1rem;
+    background-repeat: no-repeat;
         //         position: absolute;
         //         bottom: 0;
         //     left: 50%;
