@@ -98,18 +98,18 @@ main {
         "loc2";
 
     #loc1 {
-    grid-area: loc1;
-    display: flex;
-    margin-top: 0px !important;
-    flex-direction: column;
-    z-index: 1;
-    top: 34%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-bottom: 10px;
-    position: absolute;
-    bottom: 0;
-    line-height: 1.4;
+        grid-area: loc1;
+        display: flex;
+        margin-top: 0px !important;
+        flex-direction: column;
+        z-index: 1;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 10px;
+        position: absolute;
+        bottom: 0;
+        line-height: 1.4;
 
         h1 {
 
@@ -119,7 +119,7 @@ main {
             text-align: left;
             font-family: front1;
             left: 50%;
-          
+
         }
 
         h3 {
@@ -134,17 +134,17 @@ main {
     }
 
     #loc2 {
- 
-    grid-area: loc2;
-    background-position: center;
-    background-image: url(retouch_2025102821364594.png);
-    width: 100%;
-    background-size: cover;
-    background-position: center;
- 
-    object-fit: cover;
+
+        grid-area: loc2;
+        background-position: center;
+        background-image: url(retouch_2025102821364594.png);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+
+        object-fit: cover;
         background-position-y: 2rem;
-    background-repeat: no-repeat;
+        background-repeat: no-repeat;
         //         position: absolute;
         //         bottom: 0;
         //     left: 50%;
@@ -261,8 +261,8 @@ section {
             div {
                 display: flex;
                 justify-content: space-between;
-                
-                 
+
+
 
                 h4 {
 
@@ -273,9 +273,9 @@ section {
                     border-radius: 2rem;
                     font-size: 1.1rem;
                 }
-         
 
-                .ri-github-fill{
+
+                .ri-github-fill {
                     font-size: 2rem;
                     text-decoration: none;
                     color: black;
@@ -298,7 +298,7 @@ section {
         width: 100%;
 
         background-color: #ffffff;
-        border: 2px solid;
+ 
         padding: 2rem 2rem;
         display: grid;
         position: relative;
@@ -397,25 +397,27 @@ section {
     }
 
 }
+
 @media screen and (max-width: 375px) {
 
-  #section1 {
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-      "loc1"
-      "loc2"
-      "loc2"
-       "loc2";;
-  }
+    #section1 {
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        padding: 0 1rem;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "loc1"
+            "loc2"
+            "loc2"
+            "loc2";
+        ;
+    }
 
-  #section1 #loc1 {
+    #section1 #loc1 {
         grid-area: loc1;
         /* display: flex; */
         margin-bottom: 10px;
@@ -423,33 +425,112 @@ section {
         /* background-position-y: 8rem; */
         bottom: 0;
         line-height: 1.4;
-  }
+    }
 
-  #section1 #loc1 h1 {
-    font-size: 41vw;
-    z-index: 2;
-    text-align: left;
-    font-family: front1;
-  }
+    #section1 #loc1 h1 {
+        font-size: 41vw;
+        z-index: 2;
+        text-align: left;
+        font-family: front1;
+    }
 
-  #section1 #loc1 h3 {
-    font-size: 20vw;
-    font-family: front;
-    color: transparent;
-    background-image: url("https://i.pinimg.com/originals/e4/47/c5/e447c5bdd414dce7b88d3bd7536c9f47.gif");
-    background-clip: text;
-  }
+    #section1 #loc1 h3 {
+        font-size: 20vw;
+        font-family: front;
+        color: transparent;
+        background-image: url("https://i.pinimg.com/originals/e4/47/c5/e447c5bdd414dce7b88d3bd7536c9f47.gif");
+        background-clip: text;
+    }
 
-  #section1 #loc2 {
+    #section1 #loc2 {
         grid-area: loc2;
         background-image: url(retouch_2025112621340961.png);
         background-size: contain;
         background-position-y: 5rem;
         background-repeat: no-repeat;
- 
-  }
+
+    }
 
 }
+
 // @media screen (max height:){
 
 // }
+section {
+    width: 100%;
+    
+    .section5 {
+        width: 100%;
+         
+
+        background-image: url("https://i.pinimg.com/originals/e4/47/c5/e447c5bdd414dce7b88d3bd7536c9f47.gif");
+
+ 
+
+
+        h1 {
+            font-size:  25vw;
+            text-align: center;
+            left: 50%;
+            color: whitesmoke;
+            transform: translateX(-50%);
+            position: relative;
+ 
+            font-family: front1;
+
+        }
+ 
+                form{
+                    display: flex ;
+                    flex-direction: column ;
+                    gap: 2rem ;
+                    background-color:  #f3f3f1;
+                    border-radius: 1rem;
+                    margin-inline: 1.5rem ;
+                    position: relative;
+                    font-family: font3;
+                    top: -5rem;
+                    padding: 2rem;
+                    .input{
+                        padding: 1rem ;
+                        font-size: 1.2rem ;
+                        border-radius: 2rem ;
+                        border: 0.2rem solid black ;
+                    }
+                    #message-box{
+                        min-height: 10rem ;
+                     width: 100%;
+                        border: 0.2rem solid black ;
+                        border-radius: 1rem;
+                        padding: 1rem ;
+                        font-size: 1.2rem ;
+                    }
+                    #form-button-outter{
+                        display: flex ;
+                        justify-content: space-between ;
+                        button{
+                            padding:  0  1rem ;
+                            font-size:  6vw;
+                            border-radius: 2rem ;
+                            border: none ;
+                            background-color: black ;
+                            color: white ;
+                            cursor: pointer ;
+                        }
+                        #form-button-inner{
+                            display: flex ;
+                            gap: 1rem ;
+                            padding: 1rem;
+                           img{
+                            width: 2rem ;
+                            height: 2rem ;
+                           }
+                        }
+                    }
+
+                }
+
+
+ 
+    }
+}

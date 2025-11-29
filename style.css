@@ -226,7 +226,6 @@ section {
 section .section4 {
   width: 100%;
   background-color: #ffffff;
-  border: 2px solid;
   padding: 2rem 2rem;
   display: grid;
   position: relative;
@@ -340,4 +339,68 @@ section .section4 #section4-block3 p {
     background-position-y: 5rem;
     background-repeat: no-repeat;
   }
+}
+section {
+  width: 100%;
+}
+section .section5 {
+  width: 100%;
+  background-image: url("https://i.pinimg.com/originals/e4/47/c5/e447c5bdd414dce7b88d3bd7536c9f47.gif");
+}
+section .section5 h1 {
+  font-size: 25vw;
+  text-align: center;
+  left: 50%;
+  color: whitesmoke;
+  transform: translateX(-50%);
+  position: relative;
+  font-family: front1;
+}
+section .section5 form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #f3f3f1;
+  border-radius: 1rem;
+  margin-inline: 1.5rem;
+  position: relative;
+  font-family: font3;
+  top: -5rem;
+  padding: 2rem;
+}
+section .section5 form .input {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  border: 0.2rem solid black;
+}
+section .section5 form #message-box {
+  min-height: 10rem;
+  width: 100%;
+  border: 0.2rem solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+section .section5 form #form-button-outter {
+  display: flex;
+  justify-content: space-between;
+}
+section .section5 form #form-button-outter button {
+  padding: 0 1rem;
+  font-size: 6vw;
+  border-radius: 2rem;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+section .section5 form #form-button-outter #form-button-inner {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+section .section5 form #form-button-outter #form-button-inner img {
+  width: 2rem;
+  height: 2rem;
 }/*# sourceMappingURL=style.css.map */
